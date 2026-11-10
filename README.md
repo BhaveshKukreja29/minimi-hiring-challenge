@@ -6,6 +6,8 @@ How it works and why: [DESIGN.md](DESIGN.md).
 
 Try it live: https://minimi-hiring-challenge.vercel.app/
 
+**Note**: The above link will take about 25 seconds until render starts the sever!
+
 ## Run it
 
 Needs Node 20.12+.
