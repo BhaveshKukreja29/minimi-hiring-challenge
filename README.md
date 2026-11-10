@@ -4,6 +4,8 @@ A chat agent with one tool, web search, that answers with receipts. Every quote 
 
 How it works and why: [DESIGN.md](DESIGN.md).
 
+Try it live: https://minimi-hiring-challenge.vercel.app/
+
 ## Run it
 
 Needs Node 20.12+.
@@ -23,6 +25,6 @@ shared/   citation parsing used by both
 eval/     end to end eval
 ```
 
-PS: I forgot initializing git in hurry so there's only 1 commit :P
+PS: I forgot initializing git in hurry (and exam stress) so there's only 1 code commit :P
 
 Trust me I make atomic commits otherwise!!
