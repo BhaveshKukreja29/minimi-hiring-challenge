@@ -1,0 +1,15 @@
+{"q": "Who won the 2024 Nobel Prize in Physics?", "expect": ["hopfield", "hinton"]}
+{"q": "What is the capital of Australia?", "expect": ["canberra"]}
+{"q": "Which company makes the Claude family of AI models?", "expect": ["anthropic"]}
+{"q": "Who directed the film Oppenheimer (2023)?", "expect": ["nolan"]}
+{"q": "Which Python version introduced the walrus operator?", "expect": ["3.8"]}
+{"q": "How tall is Mount Everest in metres, per the 2020 survey?", "expect": ["8,848.86", "8848.86"]}
+{"q": "What is the half-life of carbon-14?", "expect": ["5,730", "5730", "5,700", "5700"]}
+{"q": "Which country hosted the 2024 Summer Olympics?", "expect": ["france", "paris"]}
+{"q": "Who wrote the novel 'Project Hail Mary'?", "expect": ["andy weir", "weir"]}
+{"q": "What is the default port for PostgreSQL?", "expect": ["5432"]}
+{"q": "In what year did the James Webb Space Telescope launch?", "expect": ["2021"]}
+{"q": "Who is the author of the Python web framework FastAPI?", "expect": ["sebastián ramírez", "sebastian ramirez", "tiangolo"]}
+{"q": "What is the speed of light in vacuum in km/s, roughly?", "expect": ["299,792", "299792", "300,000"]}
+{"q": "What was the first exoplanet discovered orbiting a sun-like star?", "expect": ["51 pegasi"]}
+{"q": "Which river flows through Baghdad?", "expect": ["tigris"]}

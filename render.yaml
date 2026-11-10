@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: verbatim-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: EXA_API_KEY
+        sync: false
+      - key: TURSO_URL
+        sync: false
+      - key: TURSO_TOKEN
+        sync: false
+      - key: FRONTEND_ORIGINS
+        sync: false

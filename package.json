@@ -1,0 +1,37 @@
+{
+  "name": "verbatim",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c red,yellow \"tsx watch server/index.ts\" \"vite\"",
+    "start": "tsx server/index.ts",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "eval": "tsx eval/run.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@hono/node-server": "^2.1.6",
+    "@libsql/client": "^0.18.0",
+    "chrono-node": "^2.10.3",
+    "groq-sdk": "^1.6.0",
+    "hono": "^4.13.17",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "concurrently": "^10.0.7",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7"
+  }
+}
