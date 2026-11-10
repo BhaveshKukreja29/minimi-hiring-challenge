@@ -31,13 +31,7 @@ export function App() {
   const faq = path === "/faq";
   return (
     <>
-      {up ? (
-        <div inert={faq}>
-          <Chat />
-        </div>
-      ) : (
-        !faq && <Wakeup />
-      )}
+      <div inert={faq}>{up ? <Chat /> : <Wakeup />}</div>
       {faq && <Faq />}
     </>
   );

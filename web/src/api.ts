@@ -1,4 +1,4 @@
-export const API = import.meta.env.VITE_API_URL || "http://localhost:8787";
+export const API = (import.meta.env.VITE_API_URL || "http://localhost:8787").replace(/\/+$/, "");
 
 export type Source = { n: number; title: string; url: string; domain: string; published: string };
 export type Sentence = { text: string; source: number };

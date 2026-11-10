@@ -6,7 +6,7 @@ const env = (k: string, fallback = "") => process.env[k] || fallback;
 
 export const GROQ_API_KEY = env("GROQ_API_KEY");
 export const EXA_API_KEY = env("EXA_API_KEY");
-export const FRONTEND_ORIGINS = env("FRONTEND_ORIGINS", "*").split(",");
+export const FRONTEND_ORIGINS = env("FRONTEND_ORIGINS", "*").split(",").map((o) => o.trim().replace(/\/+$/, ""));
 export const PORT = Number(env("PORT", "8787"));
 export const DB_PATH = env("DB_PATH", "verbatim.db");
 export const TURSO_URL = env("TURSO_URL");
